@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-         Restart React
+         Restart Learning React 
         </a>
       </header>
     </div>
