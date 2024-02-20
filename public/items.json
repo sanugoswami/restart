@@ -1,0 +1,10 @@
+{
+    "data":{
+        "Breakfast":["idli","dosa"],
+        "Lunch":["rice","dal","roti"],
+        "Snacks":[],
+        "Dinner":[],
+        "Brunch":[],
+        "Dessert":[]
+    }
+}

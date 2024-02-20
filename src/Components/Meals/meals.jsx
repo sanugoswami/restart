@@ -1,25 +1,29 @@
-import React, { Component, useEffect } from 'react';
+import React, { Component, useEffect, useState } from 'react';
 import "./meals.css";
 import axios from 'axios';
 
 const Meals=()=>{
 
-    const meals=["Breakfast","Lunch","Snacks","Dinner"]
+    const [meals,setMeals]=useState([])
    
     useEffect(()=>{
-        
         axios.get("meals.json").then(resposne=>{
-            console.log("*****",resposne);
+            setMeals(resposne.data.data)
         }).catch(error=>{
             console.log("####",error);
         })
     })
 
+    const clickHandler=(item)=>{
+
+    }
+
     return(
         <>
         <div className='meals-container'>
+            <h3>Meals</h3>
             {meals.map(item=>{
-               return <p>{item}</p>
+               return <p onClick={clickHandler(item)}>{item}</p>
             })}
         </div>
         </>

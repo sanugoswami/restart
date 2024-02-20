@@ -3,6 +3,8 @@
         "Breakfast",
         "Lunch",
         "Snacks",
-        "Dinner"
+        "Dinner",
+        "Brunch",
+        "Dessert"
     ]
 }
