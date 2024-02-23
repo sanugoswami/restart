@@ -2,7 +2,7 @@ import React, { Component, useEffect, useState } from 'react';
 import "./meals.css";
 import axios from 'axios';
 
-const Meals=()=>{
+const Meals=({mealHandler})=>{
 
     const [meals,setMeals]=useState([])
    
@@ -14,16 +14,12 @@ const Meals=()=>{
         })
     })
 
-    const clickHandler=(item)=>{
-
-    }
-
     return(
         <>
         <div className='meals-container'>
             <h3>Meals</h3>
-            {meals.map(item=>{
-               return <p onClick={clickHandler(item)}>{item}</p>
+            {meals.map((mealItem,index)=>{
+               return <p className="meals-item" key={index} onClick={()=>mealHandler(mealItem)}>{mealItem}</p>
             })}
         </div>
         </>

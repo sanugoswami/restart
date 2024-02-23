@@ -4,3 +4,6 @@
     background-color: yellow;
     border: 1px solid black;
 }
+.meals-item{
+    cursor: pointer
+}
