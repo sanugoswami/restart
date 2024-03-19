@@ -1,10 +1,99 @@
 {
-    "data":{
-        "Breakfast":["idli","dosa"],
-        "Lunch":["rice","dal","roti"],
-        "Snacks":[],
-        "Dinner":[],
-        "Brunch":[],
-        "Dessert":["gulab jamun","kheer"]
+    "menuItemData":{
+        "Breakfast":[
+            { 
+                "item": "ildy",
+                "description": "idly description",
+                "currency": "INR",
+                "photo":"https://www.cookwithmanali.com/wp-content/uploads/2019/07/Dal-Fry-Recipe.jpg",
+                "price": "111  "
+            },
+            {
+                "item": "dosa",
+                "description": "dosa description",
+                "photo":"https://www.cookwithmanali.com/wp-content/uploads/2019/07/Dal-Fry-Recipe.jpg",
+                "currency": "INR",
+                "price": "111"
+            }
+        ],
+        "Lunch":[
+            { 
+                "item": "dal fry",
+                "description": "dal fry description",
+                "photo":"https://www.cookwithmanali.com/wp-content/uploads/2019/07/Dal-Fry-Recipe.jpg",
+                "currency":"INR",
+                "price": "333 "
+            },
+            {
+                "item": "jeera rice",
+                "description": "jeera rice description",
+                "photo":"https://www.cookwithmanali.com/wp-content/uploads/2019/07/Dal-Fry-Recipe.jpg",
+                "currency":"INR",
+                "price": "444"
+            }
+        ],
+        "Snacks":[
+            { 
+                "item": "vadapav",
+                "description": "vadapav description",
+                "photo":"https://www.cookwithmanali.com/wp-content/uploads/2019/07/Dal-Fry-Recipe.jpg",
+                "currency":"INR",
+                "price": "777"
+            },
+            {
+                "item": "samosa",
+                "description": "samosa description",
+                "photo":"https://www.cookwithmanali.com/wp-content/uploads/2019/07/Dal-Fry-Recipe.jpg",
+                "currency":"INR",
+                "price": "890"
+            }
+        ],
+        "Dinner":[
+            { 
+                "item": "butter naan",
+                "description": "butter naan description",
+                "photo":"https://www.cookwithmanali.com/wp-content/uploads/2019/07/Dal-Fry-Recipe.jpg",
+                "currency":"INR",
+                "price": "798 "
+        }, 
+            {
+                "item": "chicken curry",
+                "description": "chicken curry description",
+                "photo":"https://www.cookwithmanali.com/wp-content/uploads/2019/07/Dal-Fry-Recipe.jpg",
+                "currency":"INR",
+                "price": "890"
+            }
+
+        ],
+        "Brunch":[  { 
+            "item": "pasta",
+            "description": "pasta description",
+            "photo":"https://www.cookwithmanali.com/wp-content/uploads/2019/07/Dal-Fry-Recipe.jpg",
+            "currency":"INR",
+            "price": "980"
+        },
+        {
+            "item": "pizza",
+            "description": "pizza description",
+            "photo":"https://www.cookwithmanali.com/wp-content/uploads/2019/07/Dal-Fry-Recipe.jpg",
+            "currency":"INR",
+            "price": "989"
+        }],
+        "Dessert":[
+            { 
+                "item": "gulab jamun",
+                "description": "",
+                "photo":"https://www.cookwithmanali.com/wp-content/uploads/2019/07/Dal-Fry-Recipe.jpg",
+                "currency":"INR",
+                "price": "989"
+            },
+            {
+                "item": "sevai",
+                "description": "",
+                "photo":"https://www.cookwithmanali.com/wp-content/uploads/2019/07/Dal-Fry-Recipe.jpg",
+                "currency":"INR",
+                "price": "878"
+            }
+        ]
     }
 }

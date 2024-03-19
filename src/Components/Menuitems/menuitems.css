@@ -1,3 +1,8 @@
+.menu-item-container{
+    padding:0px 50px;
+    width:1000px;
+}
+
 .unavailable-item{
     color:red;
 }
@@ -6,4 +11,44 @@
     color: skyblue;
     font-size: 14px;
     text-decoration: underline;
+    cursor: pointer;
 }
+
+.menu-item-details-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    
+}
+
+.text-container{
+    width: 100%;
+    padding:20px;
+}
+
+.button-details{
+    background-color: rgb(2 173 77);
+    color:#fff;
+    border: none;
+    cursor: pointer;
+}
+
+.price-details::before{
+    content: "\20B9";
+
+}
+    
+
+
+.button-container{
+    display: inline-block;
+ 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    }
+
+
